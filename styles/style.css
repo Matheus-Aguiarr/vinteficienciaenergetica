@@ -27,11 +27,12 @@
 html {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    color: #1d1d1b;
 }
 
 body {
-    background-color: #1d1d1b;
-    color: var(--text-color);
+    background-color: #fff;
+    color: var(--bg-color-01);
     max-width: 100vw;
 }
 
@@ -41,7 +42,7 @@ header {
     left: 0;
     width: 100%;
     padding: 1.1rem;
-    background-color: #1d1d1b;
+    background-color: #ffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +58,7 @@ header {
 
 .nav a, .nav-responsive a {
     font-size: 1.2rem;
-    color: var(--text-color);
+    color: var(--bg-color-01);
     padding: 0.5rem 1rem;
     transition: .4s;
 }
@@ -69,7 +70,7 @@ header {
     left: 0;
     width: 100%;
     padding: 1rem;
-    background-color: #1d1d1b;
+    background-color: #fff;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.459);
     transition: .5s;
 }
@@ -115,7 +116,7 @@ span {
 }
 
 .about {
-    background-color: #303B41;
+    background-color: #fff;
 }
 
 .home-content,
@@ -175,8 +176,9 @@ span {
     border-radius: 1.2rem;
     text-align: center;
     border: solid 0.15rem #1d1d1b;
-    background-color: #303B41;
+    background-color: var(--bg-color-01);
     transition: .5s ease;
+    color: #fff;
 }
 
 .services-container .services-box:hover {
@@ -294,8 +296,8 @@ form textarea {
     width: 100%;
     padding: 1rem;
     font-size: 1rem;
-    color: var(--text-color);
-    background-color: #303B41;
+    color: var(--bg-color-01);
+    background-color: var(--bg-color-01);
     border-radius: 0.5rem;
     margin: 0.4rem 0;
 }
@@ -356,7 +358,7 @@ form textarea {
 .bar1, .bar2, .bar3 {
     width: 2rem;
     height: 0.3rem;
-    background-color: var(--text-color);
+    background-color: var(--bg-color-01);
     margin: 0.4rem 0;
     transition: 0.3s ease;
 }
@@ -376,11 +378,6 @@ form textarea {
     height: 50px;
 }
 
-.coment {
-    text-align: center;
-    font-style: italic;
-    color: #669154;
-}
 
 .img-vint {
     width: 60px;
