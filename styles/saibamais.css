@@ -1,0 +1,12 @@
+.home-content {
+    width: 80%;
+}
+@media (max-width: 768px) {
+    .home-content {
+        width: 90vw;
+    }
+}
+.content div {
+    margin-top: 100px;
+
+}
